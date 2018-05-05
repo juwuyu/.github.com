@@ -1,0 +1,24 @@
+@charset "UTF-8";
+.picmsg,img {
+	display: block;
+	/**margin: 0 auto;**/
+}
+div {
+	margin: 10px;
+	border: 1px solid red;
+}
+img {
+	width: 10%;
+}
+span.msg {
+	font: xx-small/1.5em  "宋体",sans-serif;
+	color: blue;
+	
+}
+
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2018-04-20 15:34:43
+ * @version $Id$
+ */

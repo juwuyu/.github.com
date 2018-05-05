@@ -1,0 +1,28 @@
+@charset "UTF-8";
+/*设置图片标题与图片,作为块级元素独占一行*/
+.picmsg,img {
+	display: block;
+	/**margin: 0 auto;**/
+}
+/*分区格式*/
+div {
+	margin: 10px;
+	border: 1px solid red;
+}
+/*按10%等比例缩小图片*/
+img {
+	width: 10%;
+}
+/*文章信息格式*/
+span.msg {
+	font: xx-small/1.5em  "宋体",sans-serif;
+	color: blue;
+	
+}
+
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2018-04-20 15:34:43
+ * @version $Id$
+ */

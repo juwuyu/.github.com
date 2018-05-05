@@ -1,0 +1,62 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2018-04-27 11:05:54
+ * @version $Id$
+ */
+nav {
+	background: #ccc;
+	height: 50px;/* 三个参数一致,居中 */
+}
+
+#banner {
+	background: #777;
+
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+
+}
+
+nav ul li {
+	/*  列表横向排列 */
+	display: inline-block;
+	line-height: 50px;/* 三个参数一致,居中 */
+	float: right;/* 	其他向右 */
+	margin-right: 20px;
+}	
+	
+nav ul li a {
+	line-height: 50px;/* 三个参数一致,居中 */
+	text-decoration: none;
+	display: inline-block;/* 块状可选中空间:1.将链接变为行内快元素 */
+	height: inherit;         /* 2.设置高度与父元素一直 */                                                                  
+	
+}
+
+nav ul li.logo {
+	float: left;/* logo向左浮动 */
+}
+
+#banner .inner {
+	max-width: 300px;
+	text-align: center;/* 文字排版居中 */
+	margin: 0 auto;/* 区块居中 */
+	position: relative;/* 设置上下位置偏移 */
+	top: 160px;
+}
+
+button {
+	border: none;
+	background: #333;
+	color: #111;
+	padding: 10px;
+
+}
+
+#banner .inner .more {
+	margin-top: 320px;
+}
