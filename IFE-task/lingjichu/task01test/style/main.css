@@ -1,0 +1,65 @@
+@charset 'UTF-8';
+
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2018-05-21 17:02:52
+ * @version $Id$
+ */
+
+/* 页头 */
+
+/* 导航栏 */
+
+nav {
+	font-size: 20px;
+	height: 50px;
+	background: #ccc;
+}
+nav ul {
+	margin-left: -5px;
+}
+
+/*列表格式设置  */
+nav ul li {
+	line-height: 50px;
+
+	display: inline-block;
+}
+nav ul li.logo {
+	font-size:30px;
+
+}
+/* 左浮动 */
+nav .left {
+	float: left;
+	padding-left: 10px;
+}
+
+/* 右浮动 */
+nav .right {
+	float: right;
+	padding-right: 10px;
+}
+/* 侧边栏 */
+#sidebar {
+	position: relative;
+	left: 0;
+	display: inline-block;
+	width: 200px;
+}
+#sidebar ul li {
+	list-style: none;
+}
+/* 内容 */
+/* 图片区 */
+#content {
+	position: relative;
+	left: 200px;
+	display: inline-block;
+	
+}
+/* 图片大小 */
+#content .img-section img {
+	height: 200px;
+}
