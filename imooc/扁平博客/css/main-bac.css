@@ -2,9 +2,10 @@
 /**
  * 
  * @authors Your Name (you@example.org)
- * @date    2018-04-27 11:05:54
+ * @date    2018-05-10 20:08:57
  * @version $Id$
  */
+
 nav {
 	background: #ccc;
 	height: 50px;/* 三个参数一致,居中 */
@@ -12,11 +13,11 @@ nav {
 
 #banner {
 	background: #777;
-
+	height: 700px;
 }
 
 nav ul {
-	list-style-type: none;
+	list-style: none;
 	margin: 0;
 
 }
@@ -39,7 +40,7 @@ nav ul li a {
 
 nav ul li.logo {
 	float: left;/* logo向左浮动 */
-}
+
 
 #banner .inner {
 	max-width: 300px;
