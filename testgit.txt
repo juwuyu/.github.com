@@ -1,0 +1,3 @@
+vi [A[Btestgit.txt
+cat testgit.txt
+[A[C[C[C[C[C[C[C[C[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ctest1
