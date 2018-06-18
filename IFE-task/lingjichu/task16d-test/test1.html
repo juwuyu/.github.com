@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>IFE ECMAScript</title>
+</head>
+
+<body>
+    <input id="first-number" type="number" value="0" placeholder="第一个数字">
+    <input id="second-number" type="number" value="0" placeholder="第二个数字">
+    <button id="add-btn">加</button>
+    <button id="minus-btn">减</button>
+    <button id="times-btn">乘</button>
+    <button id="divide-btn">除</button>
+    <p id="result">运算结果</p>
+    <script>
+        window.onload = function () {
+            //variation
+            var add = document.getElementById('add-btn');
+            console.log(add);
+            var minus = document.getElementById('minus-btn');
+            var times = document.getElementById('times-btn');
+            var divide = document.getElementById('divide-btn');
+            var firstNumber = document.getElementById('first-number');
+            console.log(typeof firstNumber.value);
+            var secondNumber = document.getElementById('second-number');
+            var result;
+            var resultText = document.getElementById('result');
+            console.log(resultText);
+
+            //function
+            add.addEventListener('click', addTwo);
+            minus.addEventListener('click', minusTwo);
+            times.addEventListener('click', timesTwo);
+            divide.addEventListener('click', divideTwo);
+
+            function addTwo() {
+                result = Number(firstNumber.value) + Number(secondNumber.value);
+                resultText.innerHTML = '运算结果: ' + result;
+                console.log(firstNumber.value);
+                console.log(typeof firstNumber);
+                console.log(secondNumber.value);
+                console.log(result);
+                console.log(resultText.textContent);
+
+            }
+
+            function minusTwo() {
+                result = Number(firstNumber.value) - Number(secondNumber.value);
+                resultText.textContent = '运算结果: ' + result;
+                console.log('-' + result);
+            }
+
+            function timesTwo() {
+                result = Number(firstNumber.value) * Number(secondNumber.value);
+                resultText.textContent = '运算结果: ' + result;
+                console.log('*' + result);
+            }
+
+            function divideTwo() {
+                var divisor = Number(secondNumber.value);
+                // 如果输入除数为0，抛出异常
+                try {
+                    if (divisor == 0) {
+                        throw '除数不能为0！';
+                    }
+                } catch (err) {
+                    alert(err + '请重新输入除数。');
+                    // resultText.textContent = err + '请重新选择除数';
+                    console.log(err);
+
+                }
+                result = Number(firstNumber.value) / Number(secondNumber.value);
+                resultText.textContent = '运算结果: ' + result;
+                console.log('/' + result);
+            }
+        }
+    </script>
+</body>
+
+</html>

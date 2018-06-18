@@ -34,7 +34,7 @@ button {
 
 
 /* 导航栏nav  */
-nav {
+.container nav {
 	height: 50px;/* 三个参数一致,居中 */
 	background: #ccc;
 }
