@@ -61,7 +61,23 @@ div, section, nav, li ,ul {
 	background-color: rgb(233, 214, 214, 0.8);
 }
 
+/* 按钮 */
+.banner .inner button {
+	line-height: 25px;
+	margin: 10px 5px;
+	padding: 0 10px;
+	border-radius: 2px; 
+	box-shadow:1px 1px 0 #080808; 
+	background: linear-gradient(top,#434345,#2f3032);
+	background-color: rgb(233, 214, 214, 0.6);
 
+}
+
+/* 信息块 */
+.banner .inner p.message {
+	visibility: hidden;
+	line-height: 25px;
+}
 /* 项目部分 */
 section.project {
 	position: relative;
