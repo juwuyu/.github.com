@@ -25,7 +25,14 @@ window.onload = function () {
             listItem.textContent = hobbiesArray[i];
             message.appendChild(listItem);
                 }
-        message.style.background = '#9966CC' ;
+            var more = document.createElement('button');
+            more.textContent = '还不够？点我';
+            message.appendChild(more);
+            more.addEventListener('click',openUrl);
+            function openUrl() {
+                window.location.href='https://github.com/juwuyu';
+            }
+                   message.style.background = '#9966CC' ;
     }
 
 }
