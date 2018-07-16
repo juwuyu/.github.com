@@ -11,7 +11,7 @@ window.onload = function () {
     function randomValueFromArray(array) {
         return array[Math.floor(Math.random() * array.length)];
     }
-
+//要git
     //定义故事中的字符串
     //RAW TEXT STRINGS
     var storyText = 'It was 94 farenheit outside, so :insertx: went for a walk. When they got to :inserty:, they stared in horror for a few moments, then :insertz:. Bob saw the whole thing, but was not surprised — :insertx: weighs 300 pounds, and it was a hot day.';
