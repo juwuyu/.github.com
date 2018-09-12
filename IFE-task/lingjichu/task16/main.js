@@ -19,7 +19,7 @@ window.onload = function () {
     function myHobbies() {
         message.style.visibility = 'visible'
         message.textContent = '';
-        var hobbiesArray = ['电影','美食','舞蹈','单机游戏']
+        var hobbiesArray = ['电影','美食','舞蹈','单机游戏'];
         for(var i = 0; i < hobbiesArray.length; i++) {
             var listItem = document.createElement('li');
             listItem.textContent = hobbiesArray[i];
