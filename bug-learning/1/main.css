@@ -1,0 +1,16 @@
+.scrollWrapper {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top:0;
+    background-color: rgb(189, 81, 81);
+}
+.bottomInput {
+    position: absolute;
+    bottom:0;
+    left:0;
+    right: 0;
+    background-color: rgb(87, 175, 109);
+}
+
